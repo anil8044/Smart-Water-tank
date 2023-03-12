@@ -10,9 +10,9 @@ const int echoPin = 14; // Echo Pin of Ultrasonic Sensor
 const int buzzPin = 4; //buzzer pin of ultrasonic sensor
 const int Relay1 = 2;
 //Servo servo;
-char auth[]="RFxtfSD6EfsysvN-FpplX32DSj1eNGSj";
-char ssid[] = "4 (2G) -VIJAYA BOYS @ HK-NET";
-char pass[] = "vijaya4444";
+char auth[]="YOUR AUTH_TOKEN";
+char ssid[] = "YOUR USERNAME";
+char pass[] = "YOUR PASSWORD";
 void setup() {
    Serial.begin(9600); // Starting Serial Terminal
    pinMode(12,OUTPUT);
